@@ -19,6 +19,9 @@ docker save -o pipeline.tar diego2250/taller-5-mlops:latest
 docker load -i pipeline.tar
 ```
 
+## Link to DockerHub
+https://hub.docker.com/r/dmorales2250/mlops-pipeline
+
 ## Conclusions
 - Requirements or Conda help recreate environments but can still break with system differences.  
 - Pickle files only move the model, not the whole setup.  
